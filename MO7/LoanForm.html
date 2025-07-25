@@ -1,0 +1,26 @@
+<!-- HTML form for calculating monthly loan payments, with Java Servlet -->
+ <!DOCTYPE html>
+ <head>
+    <title> Form for calculating monthly loan paymensts </title>
+ </head>
+ <body>
+    <h1>Compute Loan Payment</h1>
+
+    <form action = "GetParameters" method = "get">
+
+        <!--  text fields -->
+        <label for="loanAmount">Loan Amount:</label><br>
+        <input type="text" id="loanAmount" name="loanAmount"><br><br>
+        <label for="annualInterestRate">Annual Interest Rate:</label><br>
+        <input type="text" id="annualInterestRate" name="annualInterestRate"><br><br>
+        <label for="numberOfYears">Number of Years:</label><br>
+        <input type="text" id="numberOfYears" name="numberOfYears"><br><br>
+        <input type="submit" value="Compute Loan Payment">
+        <input type="reset" value="Reset">
+
+    </form>
+
+
+
+ </body>
+ </html>
